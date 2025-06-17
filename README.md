@@ -33,8 +33,9 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
+```text
 sala-reservas/
 ├── app/
 │   ├── __init__.py
@@ -47,6 +48,7 @@ sala-reservas/
 └── .github/
     └── workflows/
         └── testing.yml
+
 
 ▶️ Ejecutar la API
 
