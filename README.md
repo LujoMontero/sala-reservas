@@ -2,7 +2,6 @@
 
 Este proyecto es una API simple para gestionar reservas de salas en una oficina. Fue desarrollado aplicando **Agile Testing**, **TDD (Test-Driven Development)** y se integra en un flujo CI/CD con **GitHub Actions**.
 
----
 
 ## 🚀 Objetivos del Proyecto
 
@@ -12,7 +11,6 @@ Este proyecto es una API simple para gestionar reservas de salas en una oficina.
 ✅ Automatizar la ejecución de pruebas
 ✅ Integrar pruebas en GitHub Actions
 
----
 
 ## ⚙️ Requisitos
 
@@ -20,7 +18,6 @@ Este proyecto es una API simple para gestionar reservas de salas en una oficina.
 * Git
 * pip
 
----
 
 ## 💪 Instalación y Configuración
 
@@ -47,7 +44,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
 
 ## 📁 Estructura del Proyecto
 
@@ -66,7 +62,6 @@ sala-reservas/
         └── testing.yml
 ```
 
----
 
 ## ▶️ Ejecutar la API
 
@@ -85,8 +80,6 @@ Luego puedes hacer un POST a `http://localhost:5000/reservar` con JSON:
 }
 ```
 
----
-
 ## ✅ Ejecutar las Pruebas
 
 Desde la raíz del proyecto:
@@ -100,7 +93,6 @@ Esto ejecutará:
 * Pruebas unitarias (`test_reservas.py`)
 * Pruebas de integración (`test_api.py`)
 
----
 
 ## 🔁 Automatización con GitHub Actions
 
@@ -126,7 +118,6 @@ export PYTHONPATH=.
 
 Esto le indica a Python que el directorio actual (`.`) es la raíz de los módulos.
 
----
 
 ## 💡 Pruebas Cubiertas
 
@@ -138,7 +129,6 @@ Esto le indica a Python que el directorio actual (`.`) es la raíz de los módul
 
 * Simula solicitudes HTTP a la API (`POST /reservar`) y valida las respuestas.
 
----
 
 ## 🤔 Reflexión Final
 
@@ -146,7 +136,6 @@ Esto le indica a Python que el directorio actual (`.`) es la raíz de los módul
 * TDD nos obliga a pensar primero en los requisitos y el comportamiento.
 * Automatizar con GitHub Actions ahorra tiempo y previene errores humanos.
 
----
 
 ## 📸 Resultado esperado en Actions
 
@@ -156,10 +145,7 @@ Esto le indica a Python que el directorio actual (`.`) es la raíz de los módul
 ![Captura de pantalla 2025-06-17 185859](https://github.com/user-attachments/assets/050f6248-3abd-43d8-ab43-2a21049dbb63)
 ![Captura de pantalla 2025-06-17 190122](https://github.com/user-attachments/assets/e1a18959-0b6b-4880-bacb-541624cead8a)
 
----
 
-
-✍️ Autor
 
 ## ✍️ Autor
 
